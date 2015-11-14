@@ -7,11 +7,13 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+# Ignore the default MySql database.
+/db/*.mysql2
+/db/*.mysql2-journal
 
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
 /tmp
+# Ignore Spring files.
+/spring/*.pid
