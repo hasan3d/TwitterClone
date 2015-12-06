@@ -1,0 +1,15 @@
+one:
+  follower: hasan
+  followed: lana
+
+two:
+  follower: hasan
+  followed: malory
+
+three:
+  follower: lana
+  followed: hasan
+
+four:
+  follower: archer
+  followed: hasan

@@ -9,7 +9,16 @@ end
 	test "authenticated? should return false for a user with nil digest" do
     assert_not @user.authenticated?(:remember, '')
   end	 
-
+test "should follow and unfollow a user" do
+    hasan = users(:hasan)
+    archer  = users(:archer)
+    assert_not hasan.following?(archer)
+    hasan.follow(archer)
+    assert hasan.following?(archer)
+    assert archer.followers.include?(hasan)
+    hasan.unfollow(archer)
+    assert_not hasan.following?(archer)
+  end
   test "should be valid" do
   	assert @user.valid?
    end
@@ -60,5 +69,22 @@ test "associated microposts should be destroyed" do
       @user.destroy
     end
   end	
+test "feed should have the right posts" do
+    hasan = users(:hasan)
+    archer  = users(:archer)
+    lana    = users(:lana)
+    # Posts from followed user
+    lana.microposts.each do |post_following|
+      assert hasan.feed.include?(post_following)
+    end
+    # Posts from self
+    hasan.microposts.each do |post_self|
+      assert hasan.feed.include?(post_self)
+    end
+    # Posts from unfollowed user
+    archer.microposts.each do |post_unfollowed|
+      assert_not hasan.feed.include?(post_unfollowed)
+    end
+  end  
 	
 end
