@@ -20,7 +20,6 @@ gem 'fog',                     '1.36.0'
 
 
 group :development, :test do
-  gem 'mysql2', '~> 0.3.18'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
