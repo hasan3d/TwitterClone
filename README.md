@@ -1,7 +1,7 @@
 [![Test Coverage](https://codeclimate.com/github/toshimaru/Rails-4-Twitter-Clone/badges/coverage.svg)](https://codeclimate.com/github/toshimaru/Rails-4-Twitter-Clone)
 [![Code Climate](https://codeclimate.com/github/toshimaru/Rails-4-Twitter-Clone/badges/gpa.svg)](https://codeclimate.com/github/toshimaru/Rails-4-Twitter-Clone)
 [![Circle CI](https://circleci.com/gh/toshimaru/Rails-4-Twitter-Clone.svg?style=svg)](https://circleci.com/gh/toshimaru/Rails-4-Twitter-Clone)
-![Github Clone Screen Capture](https://s3-eu-west-1.amazonaws.com/twittercloneh/Twitter_Clone_h.png)
+![Github Clone Screen Capture](http://bit.ly/1YtAy1a)
 
 # Twitter Clone in Rails
 
