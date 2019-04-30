@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.11'
 gem 'bcrypt'
 gem 'bootstrap-sass', '~> 3.3.5'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.4'
 gem 'will_paginate'          
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'uglifier', '>= 1.3.0'
@@ -21,7 +21,7 @@ gem 'fog',                     '1.36.0'
 
 group :development, :test do
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.2', '>= 2.2.1'
   gem 'spring'
 end
 
