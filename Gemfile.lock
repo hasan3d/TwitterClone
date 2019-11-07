@@ -65,7 +65,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
-    crass (1.0.4)
+    crass (1.0.5)
     debug_inspector (0.0.3)
     erubis (2.7.0)
     excon (0.45.4)
@@ -212,7 +212,7 @@ GEM
     listen (3.0.4)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
-    loofah (2.2.3)
+    loofah (2.3.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     lumberjack (1.0.9)
@@ -237,7 +237,7 @@ GEM
       ruby-progressbar
     multi_json (1.13.1)
     nenv (0.2.0)
-    nokogiri (1.10.3)
+    nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
     notiffany (0.0.8)
       nenv (~> 0.1)
