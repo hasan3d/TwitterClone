@@ -11,7 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.1'
 gem 'jquery-rails', '>= 4.3.3'
 gem 'turbolinks', '>= 5.2.0'
-gem 'jbuilder', '~> 2.3', '>= 2.3.2'
+gem 'jbuilder', '~> 2.8', '>= 2.8.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'faker', '>= 1.6.1'
 gem 'carrierwave', '0.10.0'
